@@ -1,0 +1,27 @@
+{
+  "note": "Fan project non-komersial. Semua gambar milik pemegang hak masing-masing dan dipakai dalam jumlah terbatas untuk keperluan ulasan/kritik. Gambar asli (sebelum dikonversi ke WebP oleh tools/img.py) disimpan lokal di assets/raw/ dan tidak di-commit.",
+  "checked": "2026-10-20",
+  "assets": [
+    { "file": "assets/img/kv-1080.webp", "also": ["assets/img/kv-640.webp"], "what": "Key visual episode 2 (佐々木くんが銃弾止めた)", "source": "https://fujimototatsuki17-26.com/assets/img/stories/02/stories02_kv.jpg", "page": "https://fujimototatsuki17-26.com/story/sasaki/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi, dipakai untuk ulasan." },
+    { "file": "assets/img/chara-sasaki.webp", "what": "Desain karakter Sasaki (anime)", "source": "https://fujimototatsuki17-26.com/assets/img/stories/02/chara_img_sasaki.png", "page": "https://fujimototatsuki17-26.com/story/sasaki/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi." },
+    { "file": "assets/img/chara-kawaguchi.webp", "what": "Desain karakter Kawaguchi Chieko (anime)", "source": "https://fujimototatsuki17-26.com/assets/img/stories/02/chara_img_kawaguchi.png", "page": "https://fujimototatsuki17-26.com/story/sasaki/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi." },
+    { "file": "assets/img/chara-kuwano.webp", "what": "Desain karakter Kuwano (anime)", "source": "https://fujimototatsuki17-26.com/assets/img/stories/02/chara_img_kuwano.png", "page": "https://fujimototatsuki17-26.com/story/sasaki/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi." },
+    { "file": "assets/img/chara-sasaki-bg.webp", "also": ["assets/img/chara-kawaguchi-bg.webp", "assets/img/chara-kuwano-bg.webp"], "what": "Latar tekstur kuning karakter (anime)", "source": "https://fujimototatsuki17-26.com/assets/img/stories/02/chara_bg_*.png", "page": "https://fujimototatsuki17-26.com/story/sasaki/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi." },
+    { "file": "assets/img/icon-sasaki.webp", "also": ["assets/img/icon-kawaguchi.webp", "assets/img/icon-kuwano.webp"], "what": "Ikon karakter (anime)", "source": "https://fujimototatsuki17-26.com/assets/img/stories/02/thumb_*_on.jpg", "page": "https://fujimototatsuki17-26.com/story/sasaki/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi." },
+    { "file": "assets/img/yt-X8QT4C95p4Y-1280.webp", "also": ["assets/img/yt-X8QT4C95p4Y-800.webp"], "what": "Thumbnail PV spesial 「佐々木くんが銃弾止めた」", "source": "https://i.ytimg.com/vi/X8QT4C95p4Y/maxresdefault.jpg", "page": "https://www.youtube.com/watch?v=X8QT4C95p4Y", "credit": "avex pictures · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Thumbnail video resmi; video di-embed lewat youtube-nocookie." },
+    { "file": "assets/img/yt-xDsN2cmAlhQ-800.webp", "what": "Thumbnail trailer (予告編) 藤本タツキ 17-26", "source": "https://i.ytimg.com/vi/xDsN2cmAlhQ/maxresdefault.jpg", "page": "https://www.youtube.com/watch?v=xDsN2cmAlhQ", "credit": "avex pictures · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Thumbnail video resmi." },
+    { "file": "assets/img/anime-kv-1200.webp", "what": "Key visual antologi 藤本タツキ 17-26", "source": "Disalin dari proyek Before Chainsaw Man (assets/img/anime-kv-1400.webp), asal situs resmi anime", "page": "https://fujimototatsuki17-26.com/", "credit": "© 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会", "license": "Hak cipta. Materi promosi resmi." },
+    { "file": "assets/img/cover-1721-760.webp", "also": ["assets/img/cover-1721-400.webp"], "what": "Cover 藤本タツキ短編集 17-21 (Shueisha)", "source": "Disalin dari proyek Before Chainsaw Man / Fujimoto Archive (cover resmi Shueisha)", "page": "https://www.shueisha.co.jp/books/items/contents.html?jdcn=08X10000000016963500", "credit": "© Tatsuki Fujimoto / Shueisha", "license": "Hak cipta. Cover buku, dipakai untuk ulasan." },
+    { "file": "assets/img/cover-2226-400.webp", "what": "Cover 藤本タツキ短編集 22-26 (Shueisha)", "source": "Disalin dari proyek Before Chainsaw Man (cover resmi Shueisha)", "credit": "© Tatsuki Fujimoto / Shueisha", "license": "Hak cipta. Cover buku, dipakai untuk ulasan." },
+    { "file": "assets/favicon.svg", "what": "Favicon bidikan", "source": "Dibuat untuk proyek ini", "credit": "Fan project", "license": "Bebas dipakai ulang" }
+  ],
+  "todo_manual": [
+    { "slot": "COVERS[2] di js/data.js", "what": "Cover edisi Inggris VIZ Media 17-21", "suggest": "https://www.viz.com/read/manga/tatsuki-fujimoto-before-chainsaw-man/product/7330 (simpan sebagai assets/img/cover-1721-viz.webp)" },
+    { "slot": "PANELS[0..4] di js/data.js", "what": "Potongan panel manga pendek (maks 5) untuk storyboard", "suggest": "Ambil dari jilid 17-21 milik sendiri atau Shōnen Jump+, satu panel per slot, untuk ulasan saja" },
+    { "slot": "GALLERY di js/data.js", "what": "Screenshot adegan anime tambahan", "suggest": "Dari Prime Video/PV resmi bila ingin galeri lebih lengkap; saat ini memakai KV, thumbnail PV, dan desain karakter" }
+  ],
+  "embeds": [
+    { "what": "PV spesial Sasaki", "url": "https://www.youtube.com/watch?v=X8QT4C95p4Y", "channel": "avex pictures" },
+    { "what": "Trailer 藤本タツキ 17-26", "url": "https://www.youtube.com/watch?v=xDsN2cmAlhQ", "channel": "avex pictures" }
+  ]
+}
