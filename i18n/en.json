@@ -31,9 +31,21 @@
     "lang": "Language / Bahasa"
   },
   "lv": [
-    { "name": "No spoilers", "short": "Safe", "desc": "Haven't read or watched it. Premise and official info only." },
-    { "name": "Light spoilers", "short": "Light", "desc": "Show the conflict and climax, keep the twist and ending locked." },
-    { "name": "Full spoilers", "short": "Full", "desc": "Finished it. Show everything, including the ending." }
+    {
+      "name": "No spoilers",
+      "short": "Safe",
+      "desc": "Haven't read or watched it. Premise and official info only."
+    },
+    {
+      "name": "Light spoilers",
+      "short": "Light",
+      "desc": "Show the conflict and climax, keep the twist and ending locked."
+    },
+    {
+      "name": "Full spoilers",
+      "short": "Full",
+      "desc": "Finished it. Show everything, including the ending."
+    }
   ],
   "gate": {
     "kicker": "Before the bell rings",
@@ -63,7 +75,12 @@
     "lede": "A semi-wiki fan blog for the one-shot <span lang=\"ja\">佐々木くんが銃弾止めた</span> and its anime adaptation. Scroll to run the clock: every section is one frame of a single bullet's flight.",
     "cta": "Start the lesson",
     "scroll": "Scroll = time moves",
-    "meta": ["Manga · 2013", "Volume 17-21", "Anime · Lapin Track", "Prime Video"],
+    "meta": [
+      "Manga · 2013",
+      "Volume 17-21",
+      "Anime · Lapin Track",
+      "Prime Video"
+    ],
     "kvAlt": "Anime key visual: Sasaki in a gakuran uniform crawling across the moon's surface, Earth behind him, orange sky.",
     "credit": "Key visual © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
   },
@@ -73,7 +90,11 @@
     "p1": "Spring break. Sasaki signs up for remedial class for one reason only: to see his homeroom teacher, <b>Ms. Kawaguchi</b>.",
     "p2": "To Sasaki she is more than a teacher. She is the only person who takes his dream seriously, and he worships her almost like a god.",
     "sp1": "That dream: becoming an <b>astronaut</b>. Everyone laughs at it except Ms. Kawaguchi, who tells him big dreams are worth chasing with confidence.",
-    "board": ["春休み · 補習", "Today's assignment:", "dream big"],
+    "board": [
+      "春休み · 補習",
+      "Today's assignment:",
+      "dream big"
+    ],
     "boardAria": "Classroom chalkboard: spring break, remedial class. Today's assignment: dream big.",
     "pvCaption": "Sasaki in class, from the official special PV"
   },
@@ -96,11 +117,26 @@
       "role": "Student · protagonist",
       "front": "A bespectacled student who joins remedial class only to see his homeroom teacher.",
       "facts": [
-        { "sp": 0, "t": "Worships Ms. Kawaguchi almost like a god." },
-        { "sp": 0, "t": "Comes to spring-break remedial class just to see his teacher." },
-        { "sp": 1, "t": "Dreams of becoming an astronaut, and gets laughed at for it." },
-        { "sp": 1, "t": "Stands up to an armed man to protect his teacher." },
-        { "sp": 2, "t": "Stops the bullet with his hand, tricks Kuwano with a story about coming from the future, and 20 years later sets foot on the moon." }
+        {
+          "sp": 0,
+          "t": "Worships Ms. Kawaguchi almost like a god."
+        },
+        {
+          "sp": 0,
+          "t": "Comes to spring-break remedial class just to see his teacher."
+        },
+        {
+          "sp": 1,
+          "t": "Dreams of becoming an astronaut, and gets laughed at for it."
+        },
+        {
+          "sp": 1,
+          "t": "Stands up to an armed man to protect his teacher."
+        },
+        {
+          "sp": 2,
+          "t": "Stops the bullet with his hand, tricks Kuwano with a story about coming from the future, and 20 years later sets foot on the moon."
+        }
       ]
     },
     {
@@ -109,10 +145,22 @@
       "role": "Sasaki's homeroom teacher",
       "front": "The young teacher running remedial class. To Sasaki, she is everything.",
       "facts": [
-        { "sp": 0, "t": "Sasaki's homeroom teacher." },
-        { "sp": 0, "t": "Kuwano's high-school classmate, who once turned down his feelings." },
-        { "sp": 1, "t": "The only person who doesn't laugh at Sasaki's dream." },
-        { "sp": 2, "t": "The ending hints that she may really be a god." }
+        {
+          "sp": 0,
+          "t": "Sasaki's homeroom teacher."
+        },
+        {
+          "sp": 0,
+          "t": "Kuwano's high-school classmate, who once turned down his feelings."
+        },
+        {
+          "sp": 1,
+          "t": "The only person who doesn't laugh at Sasaki's dream."
+        },
+        {
+          "sp": 2,
+          "t": "The ending hints that she may really be a god."
+        }
       ]
     },
     {
@@ -121,24 +169,64 @@
       "role": "Ms. Kawaguchi's high-school classmate",
       "front": "The man Ms. Kawaguchi once rejected. He comes to class with a gun.",
       "facts": [
-        { "sp": 0, "t": "Ms. Kawaguchi's high-school classmate." },
-        { "sp": 0, "t": "Bursts into the remedial class and opens fire." },
-        { "sp": 1, "t": "Blames that rejection for his ruined life and takes the class hostage." },
-        { "sp": 2, "t": "Believes Sasaki's 'prophecy' about his future and surrenders." }
+        {
+          "sp": 0,
+          "t": "Ms. Kawaguchi's high-school classmate."
+        },
+        {
+          "sp": 0,
+          "t": "Bursts into the remedial class and opens fire."
+        },
+        {
+          "sp": 1,
+          "t": "Blames that rejection for his ruined life and takes the class hostage."
+        },
+        {
+          "sp": 2,
+          "t": "Believes Sasaki's 'prophecy' about his future and surrenders."
+        }
       ]
     }
   ],
   "rel": [
-    { "from": "sasaki", "to": "kawaguchi", "sp": 0, "t": "worships" },
-    { "from": "kuwano", "to": "kawaguchi", "sp": 0, "t": "was rejected" },
-    { "from": "kawaguchi", "to": "sasaki", "sp": 1, "t": "believes his dream" },
-    { "from": "kuwano", "to": "sasaki", "sp": 1, "t": "shoots" },
-    { "from": "sasaki", "to": "kuwano", "sp": 2, "t": "\"I'm from the future\"" }
+    {
+      "from": "sasaki",
+      "to": "kawaguchi",
+      "sp": 0,
+      "t": "worships"
+    },
+    {
+      "from": "kuwano",
+      "to": "kawaguchi",
+      "sp": 0,
+      "t": "was rejected"
+    },
+    {
+      "from": "kawaguchi",
+      "to": "sasaki",
+      "sp": 1,
+      "t": "believes his dream"
+    },
+    {
+      "from": "kuwano",
+      "to": "sasaki",
+      "sp": 1,
+      "t": "shoots"
+    },
+    {
+      "from": "sasaki",
+      "to": "kuwano",
+      "sp": 2,
+      "t": "\"I'm from the future\""
+    }
   ],
   "trailer": {
     "label": "Screening · official video",
     "title": "Watch before the bell rings",
-    "tabs": ["Sasaki special PV", "17-26 trailer"],
+    "tabs": [
+      "Sasaki special PV",
+      "17-26 trailer"
+    ],
     "play": "Play video",
     "theater": "Theater mode",
     "theaterOff": "Exit theater mode",
@@ -159,13 +247,33 @@
   "act3": {
     "label": "Act III · Time stops",
     "title": "The bullet stopped",
-    "hud": { "time": "Time", "vel": "Velocity", "frame": "Frame", "dist": "Distance" },
+    "hud": {
+      "time": "Time",
+      "vel": "Velocity",
+      "frame": "Frame",
+      "dist": "Distance"
+    },
     "caps": [
-      { "sp": 0, "t": "The trigger is pulled." },
-      { "sp": 0, "t": "One bullet. A few meters. A fraction of a second." },
-      { "sp": 1, "t": "Sasaki raises his hand." },
-      { "sp": 0, "t": "The title already told us: the bullet stops." },
-      { "sp": 1, "t": "In his palm. Not a scratch." }
+      {
+        "sp": 0,
+        "t": "The trigger is pulled."
+      },
+      {
+        "sp": 0,
+        "t": "One bullet. A few meters. A fraction of a second."
+      },
+      {
+        "sp": 1,
+        "t": "Sasaki raises his hand."
+      },
+      {
+        "sp": 0,
+        "t": "The title already told us: the bullet stops."
+      },
+      {
+        "sp": 1,
+        "t": "In his palm. Not a scratch."
+      }
     ],
     "staticNote": "Reduced motion is on: the scene is shown as three still frames.",
     "lieTitle": "A lie from the future",
@@ -190,14 +298,38 @@
     "title": "Manga",
     "infoTitle": "Work info",
     "rows": [
-      ["Original title", "<span lang=\"ja\">佐々木くんが銃弾止めた</span> (Sasaki-kun ga Jūdan Tometa)"],
-      ["English title", "Sasaki Stopped a Bullet"],
-      ["Story & art", "Tatsuki Fujimoto (<span lang=\"ja\">藤本タツキ</span>)"],
-      ["Award", "Judges' Special Prize (<span lang=\"ja\">審査員特別賞</span>), 5th Crown Rookie Manga Award, Jump SQ., July 2013"],
-      ["First published", "Shōnen Jump+, June 13, 2016, as a special one-shot"],
-      ["Format", "One-shot (single chapter)"],
-      ["Page count", "Not confirmed"],
-      ["Fujimoto's age", "About 20 when it won the contest (2013)"]
+      [
+        "Original title",
+        "<span lang=\"ja\">佐々木くんが銃弾止めた</span> (Sasaki-kun ga Jūdan Tometa)"
+      ],
+      [
+        "English title",
+        "Sasaki Stopped a Bullet"
+      ],
+      [
+        "Story & art",
+        "Tatsuki Fujimoto (<span lang=\"ja\">藤本タツキ</span>)"
+      ],
+      [
+        "Award",
+        "Judges' Special Prize (<span lang=\"ja\">審査員特別賞</span>), 5th Crown Rookie Manga Award, Jump SQ., July 2013"
+      ],
+      [
+        "First published",
+        "Shōnen Jump+, June 13, 2016, as a special one-shot"
+      ],
+      [
+        "Format",
+        "One-shot (single chapter)"
+      ],
+      [
+        "Page count",
+        "Not confirmed"
+      ],
+      [
+        "Fujimoto's age",
+        "About 20 when it won the contest (2013)"
+      ]
     ],
     "volTitle": "Collected in",
     "vols": [
@@ -212,10 +344,26 @@
     ],
     "tocTitle": "Inside volume 17-21",
     "toc": [
-      ["01", "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard", "2011"],
-      ["02", "Sasaki Stopped a Bullet", "2013"],
-      ["03", "Love Is Blind", "2013"],
-      ["04", "Shikaku", "2014"]
+      [
+        "01",
+        "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard",
+        "2011"
+      ],
+      [
+        "02",
+        "Sasaki Stopped a Bullet",
+        "2013"
+      ],
+      [
+        "03",
+        "Love Is Blind",
+        "2013"
+      ],
+      [
+        "04",
+        "Shikaku",
+        "2014"
+      ]
     ],
     "here": "you are here",
     "coversTitle": "Cover gallery",
@@ -224,22 +372,56 @@
       "22-26 · companion volume (Shueisha).",
       "17-21 · VIZ Media English edition (fill in manually)"
     ],
-    "viewerTitle": "Panel storyboard",
-    "viewerLede": "A fan reconstruction as a text storyboard, not the original pages. Image slots can hold short panel excerpts for review purposes (see README). Click to open reading mode.",
+    "viewerTitle": "Official scene stills",
+    "viewerLede": "Five official anime stills from press material (director Nobukage Kimura's interview on animatetimes). Click to enlarge or open reading mode. Slots can be swapped for short manga panel excerpts (see README).",
     "panels": [
-      { "sp": 0, "cap": "Spring break. Remedial class.", "sfx": "", "slot": "Panel 1 · classroom" },
-      { "sp": 0, "cap": "The door opens. A gun points at the ceiling.", "sfx": "パン", "slot": "Panel 2 · Kuwano enters" },
-      { "sp": 1, "cap": "Sasaki stands up.", "sfx": "", "slot": "Panel 3 · Sasaki stands" },
-      { "sp": 1, "cap": "The bullet stops in his palm.", "sfx": "ピタ", "slot": "Panel 4 · the bullet stops" },
-      { "sp": 2, "cap": "Twenty years later.", "sfx": "", "slot": "Panel 5 · the moon" }
+      {
+        "sp": 0,
+        "cap": "Spring break. Remedial class begins.",
+        "sfx": "",
+        "slot": "Official still · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 0,
+        "cap": "Ms. Kawaguchi, Sasaki's homeroom teacher.",
+        "sfx": "",
+        "slot": "Official still · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 0,
+        "cap": "In Sasaki's eyes, she is a goddess.",
+        "sfx": "",
+        "slot": "Official still · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 0,
+        "cap": "Kuwano arrives with a gun.",
+        "sfx": "パン",
+        "slot": "Official still · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 1,
+        "cap": "Sasaki stands up to Kuwano.",
+        "sfx": "",
+        "slot": "Official still · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      }
     ],
     "openReader": "Open reading mode",
     "slotEmpty": "Empty slot · fill in manually",
     "legalTitle": "Read it legally",
     "legal": [
-      ["Shōnen Jump+ (JP)", "One-shot page in 藤本タツキ17-26"],
-      ["VIZ Media (EN)", "Before Chainsaw Man: 17-21"],
-      ["Shueisha (JP)", "藤本タツキ短編集 17-21"]
+      [
+        "Shōnen Jump+ (JP)",
+        "One-shot page in 藤本タツキ17-26"
+      ],
+      [
+        "VIZ Media (EN)",
+        "Before Chainsaw Man: 17-21"
+      ],
+      [
+        "Shueisha (JP)",
+        "藤本タツキ短編集 17-21"
+      ]
     ]
   },
   "anime": {
@@ -248,26 +430,87 @@
     "lede": "Episode 2 of the anthology anime <span lang=\"ja\">藤本タツキ 17-26</span>: eight one-shots, one story per episode, made by several studios.",
     "staffTitle": "Staff",
     "castTitle": "Cast",
-    "castHead": ["Character", "Japanese", "English"],
+    "castHead": [
+      "Character",
+      "Japanese",
+      "English"
+    ],
     "staff": [
-      ["Director", "木村延景", "Nobukage Kimura"],
-      ["Screenplay", "内海照子", "Teruko Utsumi"],
-      ["Character design & animation director", "小園菜穂", "Naho Kozono"],
-      ["Color design", "辻田邦夫", "Kunio Tsujita"],
-      ["Art director", "中村千恵子 (スタジオ心)", "Chieko Nakamura (Studio Kokoro)"],
-      ["2D design", "佐藤菜津子", "Natsuko Satō"],
-      ["3DCG director", "越田祐史 (スタジオポメロ)", "Yūji Koshida (Studio Pomelo)"],
-      ["Director of photography", "田村 仁", "Hitoshi Tamura"],
-      ["Editing", "黒澤雅之", "Masayuki Kurosawa"],
-      ["Sound director", "本山 哲", "Satoshi Motoyama"],
-      ["Music", "井内啓二", "Keiji Inai"],
-      ["Studio", "ラパントラック", "Lapin Track"]
+      [
+        "Director",
+        "木村延景",
+        "Nobukage Kimura"
+      ],
+      [
+        "Screenplay",
+        "内海照子",
+        "Teruko Utsumi"
+      ],
+      [
+        "Character design & animation director",
+        "小園菜穂",
+        "Naho Kozono"
+      ],
+      [
+        "Color design",
+        "辻田邦夫",
+        "Kunio Tsujita"
+      ],
+      [
+        "Art director",
+        "中村千恵子 (スタジオ心)",
+        "Chieko Nakamura (Studio Kokoro)"
+      ],
+      [
+        "2D design",
+        "佐藤菜津子",
+        "Natsuko Satō"
+      ],
+      [
+        "3DCG director",
+        "越田祐史 (スタジオポメロ)",
+        "Yūji Koshida (Studio Pomelo)"
+      ],
+      [
+        "Director of photography",
+        "田村 仁",
+        "Hitoshi Tamura"
+      ],
+      [
+        "Editing",
+        "黒澤雅之",
+        "Masayuki Kurosawa"
+      ],
+      [
+        "Sound director",
+        "本山 哲",
+        "Satoshi Motoyama"
+      ],
+      [
+        "Music",
+        "井内啓二",
+        "Keiji Inai"
+      ],
+      [
+        "Studio",
+        "ラパントラック",
+        "Lapin Track"
+      ]
     ],
     "releaseTitle": "Release",
     "release": [
-      ["Oct 5, 2025", "World premiere at the Global Stage Hollywood Film Festival, USA"],
-      ["Oct 17, 2025", "Two-week limited run in Japanese cinemas (Part-1, includes the Sasaki episode)"],
-      ["Nov 8, 2025", "Worldwide exclusive on Prime Video (Japan date; listed as Nov 7 in the US)"]
+      [
+        "Oct 5, 2025",
+        "World premiere at the Global Stage Hollywood Film Festival, USA"
+      ],
+      [
+        "Oct 17, 2025",
+        "Two-week limited run in Japanese cinemas (Part-1, includes the Sasaki episode)"
+      ],
+      [
+        "Nov 8, 2025",
+        "Worldwide exclusive on Prime Video (Japan date; listed as Nov 7 in the US)"
+      ]
     ],
     "galleryTitle": "Scenes & visuals",
     "gallery": [
@@ -290,26 +533,71 @@
     "label": "Timeline",
     "title": "From contest to screen",
     "items": [
-      ["Jul 2013", "Wins the Judges' Special Prize at the 5th Crown Rookie Manga Award (Jump SQ.)."],
-      ["Jun 13, 2016", "Published on Shōnen Jump+ as a special one-shot alongside a Fire Punch update."],
-      ["Oct 4, 2021", "Collected in 藤本タツキ短編集 17-21 (Shueisha)."],
-      ["Jan 17, 2023", "VIZ Media English edition, Tatsuki Fujimoto Before Chainsaw Man: 17-21."],
-      ["Oct 17, 2025", "17-26 anime Part-1 opens in limited Japanese cinemas."],
-      ["Nov 8, 2025", "The anime launches worldwide on Prime Video."],
-      ["Nov 15, 2025", "Jump+ makes the one-shot free to read for a limited time to celebrate the anime."]
+      [
+        "Jul 2013",
+        "Wins the Judges' Special Prize at the 5th Crown Rookie Manga Award (Jump SQ.)."
+      ],
+      [
+        "Jun 13, 2016",
+        "Published on Shōnen Jump+ as a special one-shot alongside a Fire Punch update."
+      ],
+      [
+        "Oct 4, 2021",
+        "Collected in 藤本タツキ短編集 17-21 (Shueisha)."
+      ],
+      [
+        "Jan 17, 2023",
+        "VIZ Media English edition, Tatsuki Fujimoto Before Chainsaw Man: 17-21."
+      ],
+      [
+        "Oct 17, 2025",
+        "17-26 anime Part-1 opens in limited Japanese cinemas."
+      ],
+      [
+        "Nov 8, 2025",
+        "The anime launches worldwide on Prime Video."
+      ],
+      [
+        "Nov 15, 2025",
+        "Jump+ makes the one-shot free to read for a limited time to celebrate the anime."
+      ]
     ]
   },
   "rail": {
     "label": "Story trajectory",
     "beats": [
-      { "sp": 0, "t": "Frame 0 · title" },
-      { "sp": 0, "t": "I · remedial class" },
-      { "sp": 0, "t": "Characters" },
-      { "sp": 0, "t": "Screening" },
-      { "sp": 0, "t": "II · the shot" },
-      { "sp": 1, "t": "III · the bullet stops" },
-      { "sp": 0, "t": "IV · the moon" },
-      { "sp": 0, "t": "Archive" }
+      {
+        "sp": 0,
+        "t": "Frame 0 · title"
+      },
+      {
+        "sp": 0,
+        "t": "I · remedial class"
+      },
+      {
+        "sp": 0,
+        "t": "Characters"
+      },
+      {
+        "sp": 0,
+        "t": "Screening"
+      },
+      {
+        "sp": 0,
+        "t": "II · the shot"
+      },
+      {
+        "sp": 1,
+        "t": "III · the bullet stops"
+      },
+      {
+        "sp": 0,
+        "t": "IV · the moon"
+      },
+      {
+        "sp": 0,
+        "t": "Archive"
+      }
     ]
   },
   "world": {
@@ -317,10 +605,22 @@
     "title": "This bullet belongs to a bigger archive",
     "lede": "This fan blog is part of a network of Fujimoto projects. Different styles, one author.",
     "cards": [
-      ["Fujimoto Archive", "Every Tatsuki Fujimoto work on one shelf, from the age-17 one-shot to Chainsaw Man."],
-      ["Before Chainsaw Man · 17-26", "A semi-wiki for the two one-shot collections 17-21 and 22-26, where Sasaki comes from."],
-      ["Niwatori", "The first one-shot in the same volume: a coop-duty logbook about two suspicious chickens."],
-      ["Goodbye, Eri", "A fan blog built as phone-camera footage that follows the story."]
+      [
+        "Fujimoto Archive",
+        "Every Tatsuki Fujimoto work on one shelf, from the age-17 one-shot to Chainsaw Man."
+      ],
+      [
+        "Before Chainsaw Man · 17-26",
+        "A semi-wiki for the two one-shot collections 17-21 and 22-26, where Sasaki comes from."
+      ],
+      [
+        "Niwatori",
+        "The first one-shot in the same volume: a coop-duty logbook about two suspicious chickens."
+      ],
+      [
+        "Goodbye, Eri",
+        "A fan blog built as phone-camera footage that follows the story."
+      ]
     ],
     "open": "Open"
   },
@@ -350,7 +650,13 @@
     "searchPh": "Search: bullet, moon, Lapin Track, 2016...",
     "searchHint": "Press / to search",
     "all": "All",
-    "cats": { "theme": "Themes", "symbol": "Symbolism", "trivia": "Trivia", "link": "Other works", "prod": "Production" },
+    "cats": {
+      "theme": "Themes",
+      "symbol": "Symbolism",
+      "trivia": "Trivia",
+      "link": "Other works",
+      "prod": "Production"
+    },
     "toc": "Contents",
     "count": "articles",
     "count1": "article",
@@ -362,120 +668,287 @@
   },
   "articles": [
     {
-      "id": "judul", "cat": "trivia", "sp": 0,
+      "id": "judul",
+      "cat": "trivia",
+      "sp": 0,
       "title": "A title that spoils itself",
       "body": "<p>The title already tells you the most impossible thing in the story: Sasaki stops a bullet. The tension isn't <i>whether</i> it happens but <i>how</i> and <i>why</i>. <span lang=\"ja\">止めた</span> is past tense, so the title reads like a report of something that has already happened.</p>",
-      "tags": ["title", "judul", "止めた"]
+      "tags": [
+        "title",
+        "judul",
+        "止めた"
+      ]
     },
     {
-      "id": "lomba", "cat": "prod", "sp": 0,
+      "id": "lomba",
+      "cat": "prod",
+      "sp": 0,
       "title": "From the Crown contest to Jump+",
       "body": "<p>The story won the <b>Judges' Special Prize</b> (<span lang=\"ja\">審査員特別賞</span>) in Jump SQ.'s 5th Crown Rookie Manga Award, July 2013 round. The official results page records a judge calling it the most entertaining entry of that round.</p><p>It was only published for the public on June 13, 2016 on Shōnen Jump+, as a special one-shot released alongside a <i>Fire Punch</i> update.</p>",
-      "src": [["Jump SQ. · 5th Crown", "https://jumpsq.shueisha.co.jp/mangasyou/crown/index05.html"], ["Manba", "https://manba.co.jp/topics/18236"]],
-      "tags": ["crown", "jump sq", "2013", "2016", "jump+", "fire punch", "contest"]
+      "src": [
+        [
+          "Jump SQ. · 5th Crown",
+          "https://jumpsq.shueisha.co.jp/mangasyou/crown/index05.html"
+        ],
+        [
+          "Manba",
+          "https://manba.co.jp/topics/18236"
+        ]
+      ],
+      "tags": [
+        "crown",
+        "jump sq",
+        "2013",
+        "2016",
+        "jump+",
+        "fire punch",
+        "contest"
+      ]
     },
     {
-      "id": "usia", "cat": "trivia", "sp": 0,
+      "id": "usia",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Drawn at about 20",
       "body": "<p>Fujimoto was born in October 1992, so he was about 20 when this story won its contest in 2013. That is why it sits in <i>17-21</i>: the volume titles are the range of ages Fujimoto was when he drew what's inside.</p>",
-      "tags": ["age", "17-21"]
+      "tags": [
+        "age",
+        "17-21"
+      ]
     },
     {
-      "id": "cover", "cat": "trivia", "sp": 0,
+      "id": "cover",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Sasaki is the face of 17-21",
       "body": "<p>Of the four stories in <i>17-21</i>, Sasaki got the cover: a boy in a gakuran leaping across a lime-yellow moon, Earth behind him, orange sky. The anime key visual for this episode deliberately repeats the same composition.</p>",
-      "tags": ["cover", "moon", "key visual"]
+      "tags": [
+        "cover",
+        "moon",
+        "key visual"
+      ]
     },
     {
-      "id": "adik", "cat": "trivia", "sp": 0,
+      "id": "adik",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Reposted by Fujimoto's \"little sister\"",
       "body": "<p>On October 4, 2021, the day <i>17-21</i> came out, the Twitter account ながやまこはる, known as Fujimoto's \"little sister\", posted this one-shot as a 10-part thread. According to an interview with his editor, the account is actually run by Fujimoto himself.</p>",
-      "src": [["KAI-YOU", "https://kai-you.net/article/81612"]],
-      "tags": ["twitter", "ながやまこはる", "2021", "sister"]
+      "src": [
+        [
+          "KAI-YOU",
+          "https://kai-you.net/article/81612"
+        ]
+      ],
+      "tags": [
+        "twitter",
+        "ながやまこはる",
+        "2021",
+        "sister"
+      ]
     },
     {
-      "id": "logo", "cat": "symbol", "sp": 0,
+      "id": "logo",
+      "cat": "symbol",
+      "sp": 0,
       "title": "The anime logo: crosshairs inside 弾",
       "body": "<p>In the anime's title logo, the inside of <span lang=\"ja\">弾</span> (bullet) is replaced with a crosshair, while <span lang=\"ja\">止</span> (stop) is drawn far larger than the rest, like a wall in the way. This site borrows both motifs: the crosshair cursor and the 止 in Act III.</p>",
-      "tags": ["logo", "弾", "止", "crosshair"]
+      "tags": [
+        "logo",
+        "弾",
+        "止",
+        "crosshair"
+      ]
     },
     {
-      "id": "peluru", "cat": "symbol", "sp": 1,
+      "id": "peluru",
+      "cat": "symbol",
+      "sp": 1,
       "title": "The bullet as the impossible obstacle",
       "body": "<p>A bullet is the least negotiable thing there is: fast, straight, lethal. Sasaki stops it not with an explained superpower but with belief. One reviewer reads the bullet as a metaphor for confidence: the impossible gives way when someone truly believes.</p>",
-      "src": [["Moonlit Media Room", "https://moonlitmediaroom.wordpress.com/2023/01/23/i-read-tatsuki-fujimoto-before-chainsaw-man-17-21/"]],
-      "tags": ["bullet", "belief", "metaphor"]
+      "src": [
+        [
+          "Moonlit Media Room",
+          "https://moonlitmediaroom.wordpress.com/2023/01/23/i-read-tatsuki-fujimoto-before-chainsaw-man-17-21/"
+        ]
+      ],
+      "tags": [
+        "bullet",
+        "belief",
+        "metaphor"
+      ]
     },
     {
-      "id": "iman", "cat": "theme", "sp": 1,
+      "id": "iman",
+      "cat": "theme",
+      "sp": 1,
       "title": "Faith as a superpower",
       "body": "<p>Sasaki treats his teacher as a god, and that faith is what puts him in front of a gun barrel. The story walks the line between comedy and sincerity: the action logic is over the top, but it's delivered with a straight face, as if all of it makes perfect sense.</p>",
-      "tags": ["faith", "god", "comedy"]
+      "tags": [
+        "faith",
+        "god",
+        "comedy"
+      ]
     },
     {
-      "id": "mimpi", "cat": "theme", "sp": 1,
+      "id": "mimpi",
+      "cat": "theme",
+      "sp": 1,
       "title": "A dream everyone laughs at",
       "body": "<p>Sasaki wants to be an astronaut and everyone laughs, except Ms. Kawaguchi. One adult taking a kid's dream seriously drives the whole story, from remedial class to the last page.</p>",
-      "tags": ["dream", "astronaut", "teacher"]
+      "tags": [
+        "dream",
+        "astronaut",
+        "teacher"
+      ]
     },
     {
-      "id": "pemujaan", "cat": "theme", "sp": 1,
+      "id": "pemujaan",
+      "cat": "theme",
+      "sp": 1,
       "title": "Worship or humanity?",
       "body": "<p>Not every reader likes the premise. The Comics Journal argues that worshipping the teacher as a goddess strips away her humanity, and calls the premise troubling. Top Level Canon finds it less strange and less ambitious than the other stories in the volume. On the other hand, a review on Anitay calls it the best story in the collection. Reading it with both views in mind makes it more interesting.</p>",
-      "src": [["The Comics Journal", "https://www.tcj.com/reviews/tatsuki-fujimoto-before-chainsaw-man-17-21/"], ["Top Level Canon", "https://www.toplevelcanon.com/reviews/xnob3y1lyp9wszos4wnz9lf9rua1ws"], ["Anitay (Medium)", "https://medium.com/anitay-official/both-then-and-now-a-review-of-tatsuki-fujimotos-17-21-29d4a08013ad"]],
-      "tags": ["criticism", "reviews"]
+      "src": [
+        [
+          "The Comics Journal",
+          "https://www.tcj.com/reviews/tatsuki-fujimoto-before-chainsaw-man-17-21/"
+        ],
+        [
+          "Top Level Canon",
+          "https://www.toplevelcanon.com/reviews/xnob3y1lyp9wszos4wnz9lf9rua1ws"
+        ],
+        [
+          "Anitay (Medium)",
+          "https://medium.com/anitay-official/both-then-and-now-a-review-of-tatsuki-fujimotos-17-21-29d4a08013ad"
+        ]
+      ],
+      "tags": [
+        "criticism",
+        "reviews"
+      ]
     },
     {
-      "id": "bohong", "cat": "symbol", "sp": 2,
+      "id": "bohong",
+      "cat": "symbol",
+      "sp": 2,
       "title": "A lie from the future",
       "body": "<p>After stopping the bullet, Sasaki doesn't punch Kuwano. He lies: he claims to come from the future and promises Kuwano a good one. The same thing that makes Sasaki strong (believing in something that hasn't happened yet) is used to save everyone, the shooter included.</p>",
-      "tags": ["future", "lie", "kuwano"]
+      "tags": [
+        "future",
+        "lie",
+        "kuwano"
+      ]
     },
     {
-      "id": "bulan", "cat": "symbol", "sp": 2,
+      "id": "bulan",
+      "cat": "symbol",
+      "sp": 2,
       "title": "The moon and the Earth",
       "body": "<p>Twenty years later Sasaki sets foot on the moon as the first Japanese person there. The bullet's path that froze in Act III continues as a rocket's: same belief, different direction. The last page hints that Ms. Kawaguchi really is a god, and the story never settles which is true.</p>",
-      "tags": ["moon", "ending", "astronaut", "god"]
+      "tags": [
+        "moon",
+        "ending",
+        "astronaut",
+        "god"
+      ]
     },
     {
-      "id": "jilid", "cat": "link", "sp": 0,
+      "id": "jilid",
+      "cat": "link",
+      "sp": 0,
       "title": "Volume mates",
       "body": "<p>In <i>17-21</i>, Sasaki sits next to <i>Niwatori</i> (2011), Fujimoto's first one-shot about two \"chickens\" in a schoolyard, plus <i>Love Is Blind</i> (2013) and <i>Shikaku</i> (2014). All four are now episodes of the <i>17-26</i> anime too.</p>",
-      "tags": ["niwatori", "love is blind", "shikaku", "17-21"]
+      "tags": [
+        "niwatori",
+        "love is blind",
+        "shikaku",
+        "17-21"
+      ]
     },
     {
-      "id": "crown", "cat": "link", "sp": 0,
+      "id": "crown",
+      "cat": "link",
+      "sp": 0,
       "title": "Love Is Blind, a twin from the same contest",
       "body": "<p>The same year, Fujimoto placed in the Crown contest again: <i>Love Is Blind</i> received an Honorable Mention (<span lang=\"ja\">佳作</span>) in the 9th Crown, November 2013. Two school stories, two chaotic confessions, one year.</p>",
-      "tags": ["love is blind", "crown", "2013"]
+      "tags": [
+        "love is blind",
+        "crown",
+        "2013"
+      ]
     },
     {
-      "id": "nada", "cat": "link", "sp": 0,
+      "id": "nada",
+      "cat": "link",
+      "sp": 0,
       "title": "Straight face, unhinged logic",
       "body": "<p>A pattern you'll later feel in <i>Chainsaw Man</i> and <i>Goodbye, Eri</i> is already here: absurd events played completely straight, then an emotional turn at the end that you don't see coming.</p>",
       "fan": true,
-      "tags": ["chainsaw man", "goodbye eri", "style"]
+      "tags": [
+        "chainsaw man",
+        "goodbye eri",
+        "style"
+      ]
     },
     {
-      "id": "studio", "cat": "prod", "sp": 0,
+      "id": "studio",
+      "cat": "prod",
+      "sp": 0,
       "title": "Lapin Track and the episode 2 team",
       "body": "<p>The Sasaki episode was made by studio <b>Lapin Track</b>, directed by Nobukage Kimura, written by Teruko Utsumi, with character designs by Naho Kozono and music by Keiji Inai. The full staff list is in the Anime section.</p>",
-      "src": [["Official anime site", "https://fujimototatsuki17-26.com/story/sasaki/"]],
-      "tags": ["lapin track", "staff", "kimura", "director"]
+      "src": [
+        [
+          "Official anime site",
+          "https://fujimototatsuki17-26.com/story/sasaki/"
+        ]
+      ],
+      "tags": [
+        "lapin track",
+        "staff",
+        "kimura",
+        "director"
+      ]
     },
     {
-      "id": "pemeran", "cat": "prod", "sp": 0,
+      "id": "pemeran",
+      "cat": "prod",
+      "sp": 0,
       "title": "Cast",
       "body": "<p>Sasaki is voiced by Toshiki Kumagai, Chieko Kawaguchi by Chika Anzai and Kuwano by Yoichi Okano. In the English dub: Stephen Fu, Brittany Cox and Cory Yee.</p>",
-      "src": [["Official anime site", "https://fujimototatsuki17-26.com/story/sasaki/"], ["Wikipedia", "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"]],
-      "tags": ["cast", "voice", "seiyuu", "dub"]
+      "src": [
+        [
+          "Official anime site",
+          "https://fujimototatsuki17-26.com/story/sasaki/"
+        ],
+        [
+          "Wikipedia",
+          "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"
+        ]
+      ],
+      "tags": [
+        "cast",
+        "voice",
+        "seiyuu",
+        "dub"
+      ]
     },
     {
-      "id": "antologi", "cat": "prod", "sp": 0,
+      "id": "antologi",
+      "cat": "prod",
+      "sp": 0,
       "title": "One episode of eight",
       "body": "<p><span lang=\"ja\">藤本タツキ 17-26</span> adapts eight one-shots from two volumes, one story per episode, by several different studios and directors. Sasaki is episode 2. It had a limited run in Japanese cinemas from October 17, 2025, then went worldwide on Prime Video.</p>",
-      "src": [["Wikipedia", "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"]],
-      "tags": ["17-26", "anthology", "prime video"]
+      "src": [
+        [
+          "Wikipedia",
+          "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"
+        ]
+      ],
+      "tags": [
+        "17-26",
+        "anthology",
+        "prime video"
+      ]
     }
   ],
   "a11y": {

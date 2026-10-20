@@ -57,12 +57,13 @@ tools/img.py          konversi gambar mentah (assets/raw/, tidak di-commit) ke W
   (`1` = ringan, `2` = twist/ending). Untuk teks yang dirender JS pakai `spText(teks, level)` dari `js/spoiler.js`.
 - **Gambar:** taruh file mentah di `assets/raw/`, tambahkan baris di `JOBS` pada `tools/img.py`, jalankan
   `python tools/img.py`, lalu catat sumbernya di `assets/assets-manifest.json`.
-- **Potongan panel manga:** taruh di `assets/img/panels/`, isi `src` pada `PANELS` di `js/data.js`. Kutipan pendek saja.
+- **Strip adegan:** berisi 5 still resmi anime (`assets/img/panels/scene-*.webp`). Untuk mengganti dengan potongan panel
+  manga, taruh WebP di `assets/img/panels/` dan ubah `src` pada `PANELS` di `js/data.js`. Kutipan pendek saja.
 
 ## Aset yang perlu diisi manual
 
-Lihat `todo_manual` di `assets/assets-manifest.json`: cover VIZ edisi Inggris, potongan panel manga untuk storyboard,
-dan (opsional) screenshot adegan anime tambahan.
+Lihat `todo_manual` di `assets/assets-manifest.json`: cover VIZ edisi Inggris, dan (opsional) potongan panel manga
+pengganti still anime di strip adegan serta screenshot adegan tambahan.
 
 ## Jaringan blog
 

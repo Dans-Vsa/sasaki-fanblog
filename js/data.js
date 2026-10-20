@@ -21,9 +21,15 @@ export const COVERS = [
   { src: null, w: 400, h: 600 },
 ];
 
-// Manga panel slots for the storyboard viewer. Put short review excerpts in assets/img/panels/
-// and set src, e.g. 'panels/panel-1.webp'. null renders the text storyboard frame.
-export const PANELS = [{ src: null }, { src: null }, { src: null }, { src: null }, { src: null }];
+// Scene strip: official anime press stills (animatetimes interview, © 17-26 committee).
+// Short manga panel excerpts can replace them later: put a WebP in assets/img/panels/ and change src.
+export const PANELS = [
+  { src: 'panels/scene-1.webp' },
+  { src: 'panels/scene-2.webp' },
+  { src: 'panels/scene-3.webp' },
+  { src: 'panels/scene-4.webp' },
+  { src: 'panels/scene-5.webp' },
+];
 
 // Anime gallery. Order matches i18n "anime.gallery".
 export const GALLERY = [

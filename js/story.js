@@ -233,7 +233,7 @@ function renderManga() {
   $('#strip').innerHTML = t('manga.panels').map((p, i) => {
     const locked = lv() < p.sp;
     return `<li><button type="button" class="panel ${locked ? 'is-locked' : ''} panel--${i}" data-lb="panels" data-i="${i}">
-      ${PANELS[i].src && !locked ? `<img src="${IMG}${PANELS[i].src}" alt="${esc(p.cap)}" loading="lazy">` : panelArt(p, i, locked)}
+      ${PANELS[i].src && !locked ? panelImg(p, i) : panelArt(p, i, locked)}
     </button></li>`;
   }).join('');
   const L = [LINKS.jumpPlus, LINKS.viz, LINKS.shueisha];
@@ -241,7 +241,14 @@ function renderManga() {
     `<li><a href="${L[i]}" target="_blank" rel="noopener"><b>${esc(name)} ↗</b><span>${esc(sub)}</span></a></li>`).join('');
 }
 
-/** Storyboard frame drawn in CSS: narration box + SFX, no copied art. */
+/** Panel with an official still: image + frame number + narration box. */
+function panelImg(p, i) {
+  return `<img src="${IMG}${PANELS[i].src}" width="640" height="360" alt="${esc(p.cap)}" loading="lazy" decoding="async">
+    <span class="panel__no">${String(i + 1).padStart(2, '0')}</span>
+    <span class="panel__cap">${esc(p.cap)}</span>`;
+}
+
+/** Storyboard frame drawn in CSS (used when a slot has no image or is locked by spoilers). */
 function panelArt(p, i, locked) {
   return `<span class="panel__art" aria-hidden="true">${p.sfx ? `<span class="panel__sfx" lang="ja">${locked ? '' : p.sfx}</span>` : ''}</span>
     <span class="panel__no">${String(i + 1).padStart(2, '0')}</span>
@@ -298,7 +305,7 @@ function registerSets() {
   registerSet('panels', t('manga.panels').map((p, i) => {
     const locked = lv() < p.sp;
     return PANELS[i].src && !locked
-      ? { src: IMG + PANELS[i].src, cap: p.cap }
+      ? { src: IMG + PANELS[i].src, cap: `${p.cap} · ${CREDIT_ANIME}`, w: 640, h: 360 }
       : { html: `<div class="panel panel--big ${locked ? 'is-locked' : ''} panel--${i}">${panelArt(p, i, locked)}</div>`, cap: locked ? t('censor.locked') : p.cap };
   }));
 }

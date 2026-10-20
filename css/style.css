@@ -607,12 +607,17 @@ body.is-theater .rail { opacity: 0; pointer-events: none; }
 .viewer { margin-top: 50px; }
 .viewer__head { display: flex; justify-content: space-between; gap: 20px; align-items: end; flex-wrap: wrap; margin-bottom: 16px; }
 .viewer__head .muted { max-width: 64ch; margin: 0; }
-.strip { list-style: none; margin: 0; padding: 4px 4px 16px; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(200px, 1fr); gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; }
-.strip li { scroll-snap-align: start; }
+/* scene strip */
+.strip { list-style: none; margin: 0; padding: 4px 4px 16px; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(300px, 1fr); gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; }
+.strip li { scroll-snap-align: start; align-self: start; }
 .panel { position: relative; display: block; width: 100%; aspect-ratio: 3 / 4; text-align: left; overflow: hidden;
   background: radial-gradient(rgba(13,13,13,.16) 1px, transparent 1.4px) 0 0 / 6px 6px, var(--paper); color: var(--ink); border: 3px solid var(--ink); box-shadow: 0 0 0 4px var(--paper); }
 .panel:hover { transform: translateY(-2px); }
-.panel img { width: 100%; height: 100%; object-fit: cover; }
+.panel img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
+.panel:hover img { transform: scale(1.04); }
+.strip .panel { aspect-ratio: 4 / 3; }
+.panel:has(img) { background: var(--ink); }
+.panel:has(img) .panel__cap { bottom: 10px; font-size: 14px; }
 .panel__art { position: absolute; inset: 0; background: repeating-conic-gradient(from 0deg at 50% 60%, rgba(13,13,13,.0) 0 4deg, rgba(13,13,13,.12) 4deg 5deg); }
 .panel--1 .panel__art, .panel--3 .panel__art { background: repeating-conic-gradient(from 0deg at 80% 40%, transparent 0 3deg, rgba(13,13,13,.32) 3deg 4deg); }
 .panel--4 .panel__art { background: radial-gradient(circle at 50% 110%, var(--moon) 0 40%, transparent 41%), var(--orange); }
@@ -853,7 +858,7 @@ body.is-theater .rail { opacity: 0; pointer-events: none; }
   .wcard { grid-template-rows: 110px 1fr; }
   .release li { grid-template-columns: 1fr; gap: 2px; }
   .kv > div { grid-template-columns: 1fr; gap: 2px; }
-  .strip { grid-auto-columns: 74%; }
+  .strip { grid-auto-columns: 82%; }
 }
 
 /* =====================================================================

@@ -28,6 +28,12 @@ JOBS = [
     ('yt-X8QT4C95p4Y.jpg', 'yt-X8QT4C95p4Y-1280', 1280, None),
     ('yt-xDsN2cmAlhQ.jpg', 'yt-xDsN2cmAlhQ-800', 800, None),
     ('anime-kv-1400.webp', 'anime-kv-1200', 1200, None),
+    # official press stills (animatetimes, director Kimura interview) for the scene strip
+    ('at/at6.jpg', 'panels/scene-1', 640, None),
+    ('at/at2.jpg', 'panels/scene-2', 640, None),
+    ('at/at3.jpg', 'panels/scene-3', 640, None),
+    ('at/at4.jpg', 'panels/scene-4', 640, None),
+    ('at/at5.jpg', 'panels/scene-5', 640, None),
 ]
 
 def fit(im, w, h):
@@ -45,5 +51,6 @@ for src, name, w, h in JOBS:
     im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') else 'RGB')
     im = fit(im, w, h)
     dst = OUT / f'{name}.webp'
+    dst.parent.mkdir(parents=True, exist_ok=True)
     im.save(dst, 'WEBP', quality=80, method=6)
     print(f'{name}.webp', im.size, dst.stat().st_size // 1024, 'KB')

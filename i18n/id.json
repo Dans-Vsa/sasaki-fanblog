@@ -31,9 +31,21 @@
     "lang": "Bahasa / Language"
   },
   "lv": [
-    { "name": "Tanpa spoiler", "short": "Aman", "desc": "Belum baca, belum nonton. Hanya premis dan info resmi." },
-    { "name": "Spoiler ringan", "short": "Ringan", "desc": "Buka konflik dan klimaks, tapi kunci twist dan ending." },
-    { "name": "Spoiler penuh", "short": "Penuh", "desc": "Sudah tamat. Buka semuanya, termasuk akhir cerita." }
+    {
+      "name": "Tanpa spoiler",
+      "short": "Aman",
+      "desc": "Belum baca, belum nonton. Hanya premis dan info resmi."
+    },
+    {
+      "name": "Spoiler ringan",
+      "short": "Ringan",
+      "desc": "Buka konflik dan klimaks, tapi kunci twist dan ending."
+    },
+    {
+      "name": "Spoiler penuh",
+      "short": "Penuh",
+      "desc": "Sudah tamat. Buka semuanya, termasuk akhir cerita."
+    }
   ],
   "gate": {
     "kicker": "Sebelum bel berbunyi",
@@ -63,7 +75,12 @@
     "lede": "Fan blog semi-wiki untuk one-shot <span lang=\"ja\">佐々木くんが銃弾止めた</span> dan adaptasi animenya. Gulir untuk menjalankan waktu: setiap bagian adalah satu frame dari lintasan sebutir peluru.",
     "cta": "Mulai pelajaran",
     "scroll": "Gulir = waktu berjalan",
-    "meta": ["Manga · 2013", "Jilid 17-21", "Anime · Lapin Track", "Prime Video"],
+    "meta": [
+      "Manga · 2013",
+      "Jilid 17-21",
+      "Anime · Lapin Track",
+      "Prime Video"
+    ],
     "kvAlt": "Key visual anime: Sasaki berseragam gakuran merangkak di permukaan bulan, Bumi di belakangnya, langit oranye.",
     "credit": "Key visual © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
   },
@@ -73,7 +90,11 @@
     "p1": "Libur musim semi. Sasaki ikut kelas remedial dengan satu alasan saja: bisa bertemu wali kelasnya, <b>Bu Kawaguchi</b>.",
     "p2": "Bagi Sasaki, Bu Kawaguchi bukan sekadar guru. Ia satu satunya orang yang menganggap serius mimpi Sasaki, dan Sasaki memujanya nyaris seperti dewa.",
     "sp1": "Mimpi itu: menjadi <b>astronaut</b>. Semua orang menertawakannya, kecuali Bu Kawaguchi, yang bilang mimpi besar boleh dikejar dengan percaya diri.",
-    "board": ["春休み · 補習", "Tugas hari ini:", "bermimpi besar"],
+    "board": [
+      "春休み · 補習",
+      "Tugas hari ini:",
+      "bermimpi besar"
+    ],
     "boardAria": "Papan tulis kelas: libur musim semi, kelas remedial. Tugas hari ini: bermimpi besar.",
     "pvCaption": "Sasaki di kelas, dari PV spesial resmi"
   },
@@ -96,11 +117,26 @@
       "role": "Murid · tokoh utama",
       "front": "Murid berkacamata yang ikut kelas remedial hanya demi bertemu wali kelasnya.",
       "facts": [
-        { "sp": 0, "t": "Memuja Bu Kawaguchi nyaris seperti dewa." },
-        { "sp": 0, "t": "Datang ke kelas remedial libur musim semi demi bertemu gurunya." },
-        { "sp": 1, "t": "Bercita cita menjadi astronaut, dan ditertawakan karenanya." },
-        { "sp": 1, "t": "Berdiri menantang pria bersenjata demi melindungi gurunya." },
-        { "sp": 2, "t": "Menghentikan peluru dengan tangan, menipu Kuwano dengan cerita bahwa ia datang dari masa depan, dan 20 tahun kemudian menjejak bulan." }
+        {
+          "sp": 0,
+          "t": "Memuja Bu Kawaguchi nyaris seperti dewa."
+        },
+        {
+          "sp": 0,
+          "t": "Datang ke kelas remedial libur musim semi demi bertemu gurunya."
+        },
+        {
+          "sp": 1,
+          "t": "Bercita cita menjadi astronaut, dan ditertawakan karenanya."
+        },
+        {
+          "sp": 1,
+          "t": "Berdiri menantang pria bersenjata demi melindungi gurunya."
+        },
+        {
+          "sp": 2,
+          "t": "Menghentikan peluru dengan tangan, menipu Kuwano dengan cerita bahwa ia datang dari masa depan, dan 20 tahun kemudian menjejak bulan."
+        }
       ]
     },
     {
@@ -109,10 +145,22 @@
       "role": "Wali kelas Sasaki",
       "front": "Guru muda yang mengajar kelas remedial. Bagi Sasaki, ia adalah segalanya.",
       "facts": [
-        { "sp": 0, "t": "Wali kelas Sasaki." },
-        { "sp": 0, "t": "Teman sekelas Kuwano waktu SMA, dan pernah menolak perasaannya." },
-        { "sp": 1, "t": "Satu satunya orang yang tidak menertawakan mimpi Sasaki." },
-        { "sp": 2, "t": "Akhir cerita mengisyaratkan bahwa ia mungkin benar benar dewa." }
+        {
+          "sp": 0,
+          "t": "Wali kelas Sasaki."
+        },
+        {
+          "sp": 0,
+          "t": "Teman sekelas Kuwano waktu SMA, dan pernah menolak perasaannya."
+        },
+        {
+          "sp": 1,
+          "t": "Satu satunya orang yang tidak menertawakan mimpi Sasaki."
+        },
+        {
+          "sp": 2,
+          "t": "Akhir cerita mengisyaratkan bahwa ia mungkin benar benar dewa."
+        }
       ]
     },
     {
@@ -121,24 +169,64 @@
       "role": "Teman SMA Bu Kawaguchi",
       "front": "Pria yang dulu ditolak Bu Kawaguchi. Ia datang ke kelas dengan pistol.",
       "facts": [
-        { "sp": 0, "t": "Teman sekelas Bu Kawaguchi di SMA." },
-        { "sp": 0, "t": "Menerobos kelas remedial dan melepaskan tembakan." },
-        { "sp": 1, "t": "Menyalahkan penolakan itu atas hidupnya yang berantakan, lalu menyandera kelas." },
-        { "sp": 2, "t": "Percaya pada 'ramalan' Sasaki tentang masa depannya, lalu menyerah." }
+        {
+          "sp": 0,
+          "t": "Teman sekelas Bu Kawaguchi di SMA."
+        },
+        {
+          "sp": 0,
+          "t": "Menerobos kelas remedial dan melepaskan tembakan."
+        },
+        {
+          "sp": 1,
+          "t": "Menyalahkan penolakan itu atas hidupnya yang berantakan, lalu menyandera kelas."
+        },
+        {
+          "sp": 2,
+          "t": "Percaya pada 'ramalan' Sasaki tentang masa depannya, lalu menyerah."
+        }
       ]
     }
   ],
   "rel": [
-    { "from": "sasaki", "to": "kawaguchi", "sp": 0, "t": "memuja" },
-    { "from": "kuwano", "to": "kawaguchi", "sp": 0, "t": "pernah ditolak" },
-    { "from": "kawaguchi", "to": "sasaki", "sp": 1, "t": "percaya mimpinya" },
-    { "from": "kuwano", "to": "sasaki", "sp": 1, "t": "menembak" },
-    { "from": "sasaki", "to": "kuwano", "sp": 2, "t": "\"aku dari masa depan\"" }
+    {
+      "from": "sasaki",
+      "to": "kawaguchi",
+      "sp": 0,
+      "t": "memuja"
+    },
+    {
+      "from": "kuwano",
+      "to": "kawaguchi",
+      "sp": 0,
+      "t": "pernah ditolak"
+    },
+    {
+      "from": "kawaguchi",
+      "to": "sasaki",
+      "sp": 1,
+      "t": "percaya mimpinya"
+    },
+    {
+      "from": "kuwano",
+      "to": "sasaki",
+      "sp": 1,
+      "t": "menembak"
+    },
+    {
+      "from": "sasaki",
+      "to": "kuwano",
+      "sp": 2,
+      "t": "\"aku dari masa depan\""
+    }
   ],
   "trailer": {
     "label": "Tayangan · video resmi",
     "title": "Tonton sebelum bel berbunyi",
-    "tabs": ["PV spesial Sasaki", "Trailer 17-26"],
+    "tabs": [
+      "PV spesial Sasaki",
+      "Trailer 17-26"
+    ],
     "play": "Putar video",
     "theater": "Mode teater",
     "theaterOff": "Keluar mode teater",
@@ -159,13 +247,33 @@
   "act3": {
     "label": "Babak III · Waktu berhenti",
     "title": "Peluru itu berhenti",
-    "hud": { "time": "Waktu", "vel": "Kecepatan", "frame": "Frame", "dist": "Jarak" },
+    "hud": {
+      "time": "Waktu",
+      "vel": "Kecepatan",
+      "frame": "Frame",
+      "dist": "Jarak"
+    },
     "caps": [
-      { "sp": 0, "t": "Pelatuk ditarik." },
-      { "sp": 0, "t": "Satu peluru. Beberapa meter. Sepersekian detik." },
-      { "sp": 1, "t": "Sasaki mengangkat tangannya." },
-      { "sp": 0, "t": "Judulnya sudah memberi tahu kita: peluru itu berhenti." },
-      { "sp": 1, "t": "Di telapak tangannya. Tanpa luka." }
+      {
+        "sp": 0,
+        "t": "Pelatuk ditarik."
+      },
+      {
+        "sp": 0,
+        "t": "Satu peluru. Beberapa meter. Sepersekian detik."
+      },
+      {
+        "sp": 1,
+        "t": "Sasaki mengangkat tangannya."
+      },
+      {
+        "sp": 0,
+        "t": "Judulnya sudah memberi tahu kita: peluru itu berhenti."
+      },
+      {
+        "sp": 1,
+        "t": "Di telapak tangannya. Tanpa luka."
+      }
     ],
     "staticNote": "Mode gerak dikurangi aktif: adegan ditampilkan sebagai tiga frame diam.",
     "lieTitle": "Kebohongan dari masa depan",
@@ -190,14 +298,38 @@
     "title": "Manga",
     "infoTitle": "Info karya",
     "rows": [
-      ["Judul asli", "<span lang=\"ja\">佐々木くんが銃弾止めた</span> (Sasaki-kun ga Jūdan Tometa)"],
-      ["Judul Inggris", "Sasaki Stopped a Bullet"],
-      ["Cerita & gambar", "Tatsuki Fujimoto (<span lang=\"ja\">藤本タツキ</span>)"],
-      ["Penghargaan", "Hadiah Khusus Juri (<span lang=\"ja\">審査員特別賞</span>), Crown Rookie Manga Award ke-5, Jump SQ., Juli 2013"],
-      ["Terbit pertama", "Shōnen Jump+, 13 Juni 2016, sebagai one-shot spesial"],
-      ["Format", "One-shot (satu chapter)"],
-      ["Jumlah halaman", "Belum dikonfirmasi"],
-      ["Usia Fujimoto", "Sekitar 20 tahun saat karya ini menang lomba (2013)"]
+      [
+        "Judul asli",
+        "<span lang=\"ja\">佐々木くんが銃弾止めた</span> (Sasaki-kun ga Jūdan Tometa)"
+      ],
+      [
+        "Judul Inggris",
+        "Sasaki Stopped a Bullet"
+      ],
+      [
+        "Cerita & gambar",
+        "Tatsuki Fujimoto (<span lang=\"ja\">藤本タツキ</span>)"
+      ],
+      [
+        "Penghargaan",
+        "Hadiah Khusus Juri (<span lang=\"ja\">審査員特別賞</span>), Crown Rookie Manga Award ke-5, Jump SQ., Juli 2013"
+      ],
+      [
+        "Terbit pertama",
+        "Shōnen Jump+, 13 Juni 2016, sebagai one-shot spesial"
+      ],
+      [
+        "Format",
+        "One-shot (satu chapter)"
+      ],
+      [
+        "Jumlah halaman",
+        "Belum dikonfirmasi"
+      ],
+      [
+        "Usia Fujimoto",
+        "Sekitar 20 tahun saat karya ini menang lomba (2013)"
+      ]
     ],
     "volTitle": "Terkumpul di jilid",
     "vols": [
@@ -212,10 +344,26 @@
     ],
     "tocTitle": "Isi jilid 17-21",
     "toc": [
-      ["01", "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard", "2011"],
-      ["02", "Sasaki Stopped a Bullet", "2013"],
-      ["03", "Love Is Blind", "2013"],
-      ["04", "Shikaku", "2014"]
+      [
+        "01",
+        "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard",
+        "2011"
+      ],
+      [
+        "02",
+        "Sasaki Stopped a Bullet",
+        "2013"
+      ],
+      [
+        "03",
+        "Love Is Blind",
+        "2013"
+      ],
+      [
+        "04",
+        "Shikaku",
+        "2014"
+      ]
     ],
     "here": "kamu di sini",
     "coversTitle": "Galeri cover",
@@ -224,22 +372,56 @@
       "22-26 · jilid pendamping (Shueisha).",
       "17-21 · edisi Inggris VIZ Media (isi manual)"
     ],
-    "viewerTitle": "Storyboard panel",
-    "viewerLede": "Rekonstruksi fan dalam bentuk storyboard teks, bukan halaman asli. Slot gambar bisa diisi potongan panel pendek untuk keperluan ulasan (lihat README). Klik untuk membuka mode baca.",
+    "viewerTitle": "Potongan adegan resmi",
+    "viewerLede": "Lima still resmi anime dari materi pers (wawancara sutradara Kimura Nobukage di animatetimes). Klik untuk memperbesar atau buka mode baca. Slot bisa diganti potongan panel manga pendek (lihat README).",
     "panels": [
-      { "sp": 0, "cap": "Libur musim semi. Kelas remedial.", "sfx": "", "slot": "Panel 1 · ruang kelas" },
-      { "sp": 0, "cap": "Pintu terbuka. Pistol mengarah ke langit langit.", "sfx": "パン", "slot": "Panel 2 · Kuwano masuk" },
-      { "sp": 1, "cap": "Sasaki berdiri.", "sfx": "", "slot": "Panel 3 · Sasaki berdiri" },
-      { "sp": 1, "cap": "Peluru berhenti di telapak tangan.", "sfx": "ピタ", "slot": "Panel 4 · peluru berhenti" },
-      { "sp": 2, "cap": "Dua puluh tahun kemudian.", "sfx": "", "slot": "Panel 5 · bulan" }
+      {
+        "sp": 0,
+        "cap": "Libur musim semi. Kelas remedial dimulai.",
+        "sfx": "",
+        "slot": "Still resmi · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 0,
+        "cap": "Bu Kawaguchi, wali kelas Sasaki.",
+        "sfx": "",
+        "slot": "Still resmi · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 0,
+        "cap": "Di mata Sasaki, ia adalah dewi.",
+        "sfx": "",
+        "slot": "Still resmi · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 0,
+        "cap": "Kuwano datang membawa pistol.",
+        "sfx": "パン",
+        "slot": "Still resmi · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      },
+      {
+        "sp": 1,
+        "cap": "Sasaki berdiri menantang Kuwano.",
+        "sfx": "",
+        "slot": "Still resmi · © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会"
+      }
     ],
     "openReader": "Buka mode baca",
     "slotEmpty": "Slot kosong · isi manual",
     "legalTitle": "Baca secara legal",
     "legal": [
-      ["Shōnen Jump+ (JP)", "Halaman one-shot di 藤本タツキ17-26"],
-      ["VIZ Media (EN)", "Before Chainsaw Man: 17-21"],
-      ["Shueisha (JP)", "藤本タツキ短編集 17-21"]
+      [
+        "Shōnen Jump+ (JP)",
+        "Halaman one-shot di 藤本タツキ17-26"
+      ],
+      [
+        "VIZ Media (EN)",
+        "Before Chainsaw Man: 17-21"
+      ],
+      [
+        "Shueisha (JP)",
+        "藤本タツキ短編集 17-21"
+      ]
     ]
   },
   "anime": {
@@ -248,26 +430,87 @@
     "lede": "Episode 2 dari anime antologi <span lang=\"ja\">藤本タツキ 17-26</span>: delapan one-shot, satu cerita per episode, dikerjakan beberapa studio.",
     "staffTitle": "Staf",
     "castTitle": "Pemeran",
-    "castHead": ["Karakter", "Jepang", "Inggris"],
+    "castHead": [
+      "Karakter",
+      "Jepang",
+      "Inggris"
+    ],
     "staff": [
-      ["Sutradara", "木村延景", "Kimura Nobukage"],
-      ["Naskah", "内海照子", "Utsumi Teruko"],
-      ["Desain karakter & sutradara animasi", "小園菜穂", "Kozono Naho"],
-      ["Desain warna", "辻田邦夫", "Tsujita Kunio"],
-      ["Sutradara seni", "中村千恵子 (スタジオ心)", "Nakamura Chieko (Studio Kokoro)"],
-      ["Desain 2D", "佐藤菜津子", "Satō Natsuko"],
-      ["Sutradara 3DCG", "越田祐史 (スタジオポメロ)", "Koshida Yūji (Studio Pomelo)"],
-      ["Sutradara fotografi", "田村 仁", "Tamura Hitoshi"],
-      ["Penyuntingan", "黒澤雅之", "Kurosawa Masayuki"],
-      ["Sutradara suara", "本山 哲", "Motoyama Satoshi"],
-      ["Musik", "井内啓二", "Inai Keiji"],
-      ["Studio", "ラパントラック", "Lapin Track"]
+      [
+        "Sutradara",
+        "木村延景",
+        "Kimura Nobukage"
+      ],
+      [
+        "Naskah",
+        "内海照子",
+        "Utsumi Teruko"
+      ],
+      [
+        "Desain karakter & sutradara animasi",
+        "小園菜穂",
+        "Kozono Naho"
+      ],
+      [
+        "Desain warna",
+        "辻田邦夫",
+        "Tsujita Kunio"
+      ],
+      [
+        "Sutradara seni",
+        "中村千恵子 (スタジオ心)",
+        "Nakamura Chieko (Studio Kokoro)"
+      ],
+      [
+        "Desain 2D",
+        "佐藤菜津子",
+        "Satō Natsuko"
+      ],
+      [
+        "Sutradara 3DCG",
+        "越田祐史 (スタジオポメロ)",
+        "Koshida Yūji (Studio Pomelo)"
+      ],
+      [
+        "Sutradara fotografi",
+        "田村 仁",
+        "Tamura Hitoshi"
+      ],
+      [
+        "Penyuntingan",
+        "黒澤雅之",
+        "Kurosawa Masayuki"
+      ],
+      [
+        "Sutradara suara",
+        "本山 哲",
+        "Motoyama Satoshi"
+      ],
+      [
+        "Musik",
+        "井内啓二",
+        "Inai Keiji"
+      ],
+      [
+        "Studio",
+        "ラパントラック",
+        "Lapin Track"
+      ]
     ],
     "releaseTitle": "Jadwal rilis",
     "release": [
-      ["5 Okt 2025", "Pemutaran perdana dunia di Global Stage Hollywood Film Festival, AS"],
-      ["17 Okt 2025", "Tayang terbatas dua minggu di bioskop Jepang (Part-1, termasuk episode Sasaki)"],
-      ["8 Nov 2025", "Tayang eksklusif global di Prime Video (tanggal Jepang; di AS tercatat 7 Nov)"]
+      [
+        "5 Okt 2025",
+        "Pemutaran perdana dunia di Global Stage Hollywood Film Festival, AS"
+      ],
+      [
+        "17 Okt 2025",
+        "Tayang terbatas dua minggu di bioskop Jepang (Part-1, termasuk episode Sasaki)"
+      ],
+      [
+        "8 Nov 2025",
+        "Tayang eksklusif global di Prime Video (tanggal Jepang; di AS tercatat 7 Nov)"
+      ]
     ],
     "galleryTitle": "Galeri adegan & visual",
     "gallery": [
@@ -290,26 +533,71 @@
     "label": "Garis waktu",
     "title": "Dari lomba ke layar",
     "items": [
-      ["Jul 2013", "Menang Hadiah Khusus Juri di Crown Rookie Manga Award ke-5 (Jump SQ.)."],
-      ["13 Jun 2016", "Terbit di Shōnen Jump+ sebagai one-shot spesial, berbarengan dengan update Fire Punch."],
-      ["4 Okt 2021", "Terkumpul di 藤本タツキ短編集 17-21 (Shueisha)."],
-      ["17 Jan 2023", "Edisi Inggris VIZ Media, Tatsuki Fujimoto Before Chainsaw Man: 17-21."],
-      ["17 Okt 2025", "Anime 17-26 Part-1 tayang terbatas di bioskop Jepang."],
-      ["8 Nov 2025", "Anime tayang global di Prime Video."],
-      ["15 Nov 2025", "Jump+ membuka one-shot ini gratis untuk sementara, merayakan animenya."]
+      [
+        "Jul 2013",
+        "Menang Hadiah Khusus Juri di Crown Rookie Manga Award ke-5 (Jump SQ.)."
+      ],
+      [
+        "13 Jun 2016",
+        "Terbit di Shōnen Jump+ sebagai one-shot spesial, berbarengan dengan update Fire Punch."
+      ],
+      [
+        "4 Okt 2021",
+        "Terkumpul di 藤本タツキ短編集 17-21 (Shueisha)."
+      ],
+      [
+        "17 Jan 2023",
+        "Edisi Inggris VIZ Media, Tatsuki Fujimoto Before Chainsaw Man: 17-21."
+      ],
+      [
+        "17 Okt 2025",
+        "Anime 17-26 Part-1 tayang terbatas di bioskop Jepang."
+      ],
+      [
+        "8 Nov 2025",
+        "Anime tayang global di Prime Video."
+      ],
+      [
+        "15 Nov 2025",
+        "Jump+ membuka one-shot ini gratis untuk sementara, merayakan animenya."
+      ]
     ]
   },
   "rail": {
     "label": "Lintasan cerita",
     "beats": [
-      { "sp": 0, "t": "Frame 0 · judul" },
-      { "sp": 0, "t": "I · kelas remedial" },
-      { "sp": 0, "t": "Karakter" },
-      { "sp": 0, "t": "Tayangan" },
-      { "sp": 0, "t": "II · tembakan" },
-      { "sp": 1, "t": "III · peluru berhenti" },
-      { "sp": 0, "t": "IV · bulan" },
-      { "sp": 0, "t": "Arsip" }
+      {
+        "sp": 0,
+        "t": "Frame 0 · judul"
+      },
+      {
+        "sp": 0,
+        "t": "I · kelas remedial"
+      },
+      {
+        "sp": 0,
+        "t": "Karakter"
+      },
+      {
+        "sp": 0,
+        "t": "Tayangan"
+      },
+      {
+        "sp": 0,
+        "t": "II · tembakan"
+      },
+      {
+        "sp": 1,
+        "t": "III · peluru berhenti"
+      },
+      {
+        "sp": 0,
+        "t": "IV · bulan"
+      },
+      {
+        "sp": 0,
+        "t": "Arsip"
+      }
     ]
   },
   "world": {
@@ -317,10 +605,22 @@
     "title": "Peluru ini bagian dari arsip yang lebih besar",
     "lede": "Fan blog ini satu jaringan dengan proyek Fujimoto lainnya. Gaya berbeda, satu pengarang.",
     "cards": [
-      ["Fujimoto Archive", "Semua karya Tatsuki Fujimoto dalam satu rak, dari one-shot usia 17 sampai Chainsaw Man."],
-      ["Before Chainsaw Man · 17-26", "Semi-wiki dua kumpulan one-shot 17-21 dan 22-26, tempat Sasaki berasal."],
-      ["Niwatori", "One-shot pertama di jilid yang sama: buku piket kandang dua ayam yang mencurigakan."],
-      ["Goodbye, Eri", "Fan blog berkonsep rekaman kamera ponsel yang mengikuti alur ceritanya."]
+      [
+        "Fujimoto Archive",
+        "Semua karya Tatsuki Fujimoto dalam satu rak, dari one-shot usia 17 sampai Chainsaw Man."
+      ],
+      [
+        "Before Chainsaw Man · 17-26",
+        "Semi-wiki dua kumpulan one-shot 17-21 dan 22-26, tempat Sasaki berasal."
+      ],
+      [
+        "Niwatori",
+        "One-shot pertama di jilid yang sama: buku piket kandang dua ayam yang mencurigakan."
+      ],
+      [
+        "Goodbye, Eri",
+        "Fan blog berkonsep rekaman kamera ponsel yang mengikuti alur ceritanya."
+      ]
     ],
     "open": "Buka"
   },
@@ -350,7 +650,13 @@
     "searchPh": "Cari: peluru, bulan, Lapin Track, 2016...",
     "searchHint": "Tekan / untuk mencari",
     "all": "Semua",
-    "cats": { "theme": "Tema", "symbol": "Simbolisme", "trivia": "Trivia", "link": "Karya lain", "prod": "Produksi" },
+    "cats": {
+      "theme": "Tema",
+      "symbol": "Simbolisme",
+      "trivia": "Trivia",
+      "link": "Karya lain",
+      "prod": "Produksi"
+    },
     "toc": "Daftar isi",
     "count": "artikel",
     "count1": "artikel",
@@ -362,120 +668,287 @@
   },
   "articles": [
     {
-      "id": "judul", "cat": "trivia", "sp": 0,
+      "id": "judul",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Judul yang membocorkan dirinya sendiri",
       "body": "<p>Judulnya sudah memberi tahu pembaca hal paling mustahil di dalam cerita: Sasaki menghentikan peluru. Ketegangannya tidak terletak pada <i>apakah</i> itu terjadi, tapi <i>bagaimana</i> dan <i>kenapa</i>. Bentuk <span lang=\"ja\">止めた</span> adalah bentuk lampau, jadi judulnya terdengar seperti laporan kejadian yang sudah selesai.</p>",
-      "tags": ["judul", "title", "止めた"]
+      "tags": [
+        "judul",
+        "title",
+        "止めた"
+      ]
     },
     {
-      "id": "lomba", "cat": "prod", "sp": 0,
+      "id": "lomba",
+      "cat": "prod",
+      "sp": 0,
       "title": "Dari lomba Crown ke Jump+",
       "body": "<p>Karya ini memenangkan <b>Hadiah Khusus Juri</b> (<span lang=\"ja\">審査員特別賞</span>) pada Crown Rookie Manga Award ke-5 milik Jump SQ., periode Juli 2013. Halaman pengumuman resminya mencatat pujian dari juri yang menyebutnya karya paling menghibur di periode itu.</p><p>Karya ini baru terbit untuk publik pada 13 Juni 2016 di Shōnen Jump+, sebagai one-shot spesial yang ditayangkan bersama update <i>Fire Punch</i>.</p>",
-      "src": [["Jump SQ. · Crown ke-5", "https://jumpsq.shueisha.co.jp/mangasyou/crown/index05.html"], ["Manba", "https://manba.co.jp/topics/18236"]],
-      "tags": ["crown", "jump sq", "2013", "2016", "jump+", "fire punch"]
+      "src": [
+        [
+          "Jump SQ. · Crown ke-5",
+          "https://jumpsq.shueisha.co.jp/mangasyou/crown/index05.html"
+        ],
+        [
+          "Manba",
+          "https://manba.co.jp/topics/18236"
+        ]
+      ],
+      "tags": [
+        "crown",
+        "jump sq",
+        "2013",
+        "2016",
+        "jump+",
+        "fire punch"
+      ]
     },
     {
-      "id": "usia", "cat": "trivia", "sp": 0,
+      "id": "usia",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Digambar di usia sekitar 20",
       "body": "<p>Fujimoto lahir pada Oktober 1992, jadi ia berusia sekitar 20 tahun ketika karya ini menang lomba pada 2013. Itulah sebabnya karya ini masuk jilid <i>17-21</i>: angka di judul jilid adalah rentang usia Fujimoto saat menggambar isinya.</p>",
-      "tags": ["usia", "17-21", "umur"]
+      "tags": [
+        "usia",
+        "17-21",
+        "umur"
+      ]
     },
     {
-      "id": "cover", "cat": "trivia", "sp": 0,
+      "id": "cover",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Sasaki adalah wajah jilid 17-21",
       "body": "<p>Dari empat cerita di jilid <i>17-21</i>, Sasaki yang dipilih untuk cover: seorang anak berseragam gakuran melompat di permukaan bulan berwarna kuning limau, dengan Bumi di belakangnya dan langit oranye. Key visual anime episode ini sengaja mengulang komposisi yang sama.</p>",
-      "tags": ["cover", "bulan", "key visual"]
+      "tags": [
+        "cover",
+        "bulan",
+        "key visual"
+      ]
     },
     {
-      "id": "adik", "cat": "trivia", "sp": 0,
+      "id": "adik",
+      "cat": "trivia",
+      "sp": 0,
       "title": "Diunggah ulang oleh \"adik\" Fujimoto",
       "body": "<p>Pada 4 Oktober 2021, hari terbitnya jilid <i>17-21</i>, akun Twitter ながやまこはる, yang dikenal sebagai \"adik\" Fujimoto, mengunggah one-shot ini dalam utas 10 bagian. Menurut wawancara dengan editornya, akun itu sebenarnya dijalankan oleh Fujimoto sendiri.</p>",
-      "src": [["KAI-YOU", "https://kai-you.net/article/81612"]],
-      "tags": ["twitter", "ながやまこはる", "2021"]
+      "src": [
+        [
+          "KAI-YOU",
+          "https://kai-you.net/article/81612"
+        ]
+      ],
+      "tags": [
+        "twitter",
+        "ながやまこはる",
+        "2021"
+      ]
     },
     {
-      "id": "logo", "cat": "symbol", "sp": 0,
+      "id": "logo",
+      "cat": "symbol",
+      "sp": 0,
       "title": "Logo anime: bidikan di dalam 弾",
       "body": "<p>Pada logo judul anime, bagian dalam huruf <span lang=\"ja\">弾</span> (peluru) diganti tanda bidik, sementara <span lang=\"ja\">止</span> (berhenti) digambar jauh lebih besar, seperti tembok yang menghadang. Situs ini meminjam dua motif itu: kursor bidik dan huruf 止 di babak III.</p>",
-      "tags": ["logo", "弾", "止", "crosshair"]
+      "tags": [
+        "logo",
+        "弾",
+        "止",
+        "crosshair"
+      ]
     },
     {
-      "id": "peluru", "cat": "symbol", "sp": 1,
+      "id": "peluru",
+      "cat": "symbol",
+      "sp": 1,
       "title": "Peluru sebagai rintangan mustahil",
       "body": "<p>Peluru adalah hal yang paling tidak bisa dinegosiasikan: cepat, lurus, mematikan. Sasaki menghentikannya bukan dengan kekuatan super yang dijelaskan, tapi dengan keyakinan. Seorang pengulas membaca peluru itu sebagai metafora kepercayaan diri: hal mustahil runtuh ketika seseorang benar benar yakin.</p>",
-      "src": [["Moonlit Media Room", "https://moonlitmediaroom.wordpress.com/2023/01/23/i-read-tatsuki-fujimoto-before-chainsaw-man-17-21/"]],
-      "tags": ["peluru", "keyakinan", "metafora"]
+      "src": [
+        [
+          "Moonlit Media Room",
+          "https://moonlitmediaroom.wordpress.com/2023/01/23/i-read-tatsuki-fujimoto-before-chainsaw-man-17-21/"
+        ]
+      ],
+      "tags": [
+        "peluru",
+        "keyakinan",
+        "metafora"
+      ]
     },
     {
-      "id": "iman", "cat": "theme", "sp": 1,
+      "id": "iman",
+      "cat": "theme",
+      "sp": 1,
       "title": "Iman sebagai kekuatan super",
       "body": "<p>Sasaki memperlakukan gurunya sebagai dewa, dan keyakinan itulah yang membuatnya berdiri di depan moncong pistol. Cerita ini bermain di batas antara komedi dan ketulusan: logika aksinya berlebihan, tapi disampaikan dengan wajah datar, seolah olah semuanya masuk akal.</p>",
-      "tags": ["iman", "dewa", "komedi"]
+      "tags": [
+        "iman",
+        "dewa",
+        "komedi"
+      ]
     },
     {
-      "id": "mimpi", "cat": "theme", "sp": 1,
+      "id": "mimpi",
+      "cat": "theme",
+      "sp": 1,
       "title": "Mimpi yang ditertawakan",
       "body": "<p>Sasaki ingin menjadi astronaut dan semua orang menertawakannya, kecuali Bu Kawaguchi. Satu orang dewasa yang menganggap serius mimpi seorang anak menjadi motor seluruh cerita, dari kelas remedial sampai halaman terakhir.</p>",
-      "tags": ["mimpi", "astronaut", "guru"]
+      "tags": [
+        "mimpi",
+        "astronaut",
+        "guru"
+      ]
     },
     {
-      "id": "pemujaan", "cat": "theme", "sp": 1,
+      "id": "pemujaan",
+      "cat": "theme",
+      "sp": 1,
       "title": "Memuja atau memanusiakan?",
       "body": "<p>Tidak semua pembaca menyukai premisnya. The Comics Journal berpendapat bahwa memuja sang guru sebagai dewi justru melucuti sisi manusianya, dan menyebut premisnya bermasalah. Top Level Canon menilai cerita ini kurang aneh dan kurang ambisius dibanding karya lain di jilidnya. Sebaliknya, ulasan di Anitay menyebutnya cerita favorit di jilid ini. Membacanya dengan dua sudut pandang itu sekaligus membuat ceritanya lebih menarik.</p>",
-      "src": [["The Comics Journal", "https://www.tcj.com/reviews/tatsuki-fujimoto-before-chainsaw-man-17-21/"], ["Top Level Canon", "https://www.toplevelcanon.com/reviews/xnob3y1lyp9wszos4wnz9lf9rua1ws"], ["Anitay (Medium)", "https://medium.com/anitay-official/both-then-and-now-a-review-of-tatsuki-fujimotos-17-21-29d4a08013ad"]],
-      "tags": ["kritik", "ulasan", "review"]
+      "src": [
+        [
+          "The Comics Journal",
+          "https://www.tcj.com/reviews/tatsuki-fujimoto-before-chainsaw-man-17-21/"
+        ],
+        [
+          "Top Level Canon",
+          "https://www.toplevelcanon.com/reviews/xnob3y1lyp9wszos4wnz9lf9rua1ws"
+        ],
+        [
+          "Anitay (Medium)",
+          "https://medium.com/anitay-official/both-then-and-now-a-review-of-tatsuki-fujimotos-17-21-29d4a08013ad"
+        ]
+      ],
+      "tags": [
+        "kritik",
+        "ulasan",
+        "review"
+      ]
     },
     {
-      "id": "bohong", "cat": "symbol", "sp": 2,
+      "id": "bohong",
+      "cat": "symbol",
+      "sp": 2,
       "title": "Kebohongan dari masa depan",
       "body": "<p>Setelah menghentikan peluru, Sasaki tidak memukul Kuwano. Ia berbohong: mengaku datang dari masa depan, lalu menjanjikan masa depan yang baik bagi Kuwano. Cerita yang sama yang membuat Sasaki kuat (percaya pada sesuatu yang belum terjadi) dipakai untuk menyelamatkan semua orang, termasuk si penembak.</p>",
-      "tags": ["masa depan", "bohong", "kuwano"]
+      "tags": [
+        "masa depan",
+        "bohong",
+        "kuwano"
+      ]
     },
     {
-      "id": "bulan", "cat": "symbol", "sp": 2,
+      "id": "bulan",
+      "cat": "symbol",
+      "sp": 2,
       "title": "Bulan dan Bumi",
       "body": "<p>Dua puluh tahun kemudian Sasaki menjejak bulan sebagai orang Jepang pertama di sana. Lintasan peluru yang berhenti di babak III berlanjut menjadi lintasan roket: keyakinan yang sama, arah yang berbeda. Halaman terakhir mengisyaratkan Bu Kawaguchi memang dewa, dan cerita tidak pernah memastikan mana yang benar.</p>",
-      "tags": ["bulan", "ending", "astronaut", "dewa"]
+      "tags": [
+        "bulan",
+        "ending",
+        "astronaut",
+        "dewa"
+      ]
     },
     {
-      "id": "jilid", "cat": "link", "sp": 0,
+      "id": "jilid",
+      "cat": "link",
+      "sp": 0,
       "title": "Teman satu jilid",
       "body": "<p>Di <i>17-21</i>, Sasaki diapit oleh <i>Niwatori</i> (2011), one-shot pertama Fujimoto tentang dua \"ayam\" di halaman sekolah, serta <i>Love Is Blind</i> (2013) dan <i>Shikaku</i> (2014). Keempatnya kini juga menjadi episode anime <i>17-26</i>.</p>",
-      "tags": ["niwatori", "love is blind", "shikaku", "17-21"]
+      "tags": [
+        "niwatori",
+        "love is blind",
+        "shikaku",
+        "17-21"
+      ]
     },
     {
-      "id": "crown", "cat": "link", "sp": 0,
+      "id": "crown",
+      "cat": "link",
+      "sp": 0,
       "title": "Love Is Blind, kembaran dari lomba yang sama",
       "body": "<p>Pada tahun yang sama, Fujimoto juga meraih penghargaan di lomba Crown: <i>Love Is Blind</i> mendapat Honorable Mention (<span lang=\"ja\">佳作</span>) pada Crown ke-9, November 2013. Dua cerita sekolah, dua pengakuan cinta yang kacau, dua tahun yang sama.</p>",
-      "tags": ["love is blind", "crown", "2013"]
+      "tags": [
+        "love is blind",
+        "crown",
+        "2013"
+      ]
     },
     {
-      "id": "nada", "cat": "link", "sp": 0,
+      "id": "nada",
+      "cat": "link",
+      "sp": 0,
       "title": "Wajah datar, logika gila",
       "body": "<p>Pola yang nanti terasa di <i>Chainsaw Man</i> dan <i>Goodbye, Eri</i> sudah terlihat di sini: kejadian absurd yang disampaikan dengan sangat serius, lalu belokan emosional yang tidak terduga di akhir.</p>",
       "fan": true,
-      "tags": ["chainsaw man", "goodbye eri", "gaya"]
+      "tags": [
+        "chainsaw man",
+        "goodbye eri",
+        "gaya"
+      ]
     },
     {
-      "id": "studio", "cat": "prod", "sp": 0,
+      "id": "studio",
+      "cat": "prod",
+      "sp": 0,
       "title": "Lapin Track dan tim episode 2",
       "body": "<p>Episode Sasaki digarap studio <b>Lapin Track</b> dengan sutradara Kimura Nobukage, naskah Utsumi Teruko, desain karakter Kozono Naho, dan musik Inai Keiji. Daftar staf lengkap ada di bagian Anime.</p>",
-      "src": [["Situs resmi anime", "https://fujimototatsuki17-26.com/story/sasaki/"]],
-      "tags": ["lapin track", "staf", "kimura", "sutradara"]
+      "src": [
+        [
+          "Situs resmi anime",
+          "https://fujimototatsuki17-26.com/story/sasaki/"
+        ]
+      ],
+      "tags": [
+        "lapin track",
+        "staf",
+        "kimura",
+        "sutradara"
+      ]
     },
     {
-      "id": "pemeran", "cat": "prod", "sp": 0,
+      "id": "pemeran",
+      "cat": "prod",
+      "sp": 0,
       "title": "Pemeran",
       "body": "<p>Sasaki diisi Kumagai Toshiki, Kawaguchi Chieko oleh Anzai Chika, dan Kuwano oleh Okano Yoichi. Di dub Inggris: Stephen Fu, Brittany Cox, dan Cory Yee.</p>",
-      "src": [["Situs resmi anime", "https://fujimototatsuki17-26.com/story/sasaki/"], ["Wikipedia", "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"]],
-      "tags": ["pemeran", "cast", "seiyuu", "dub"]
+      "src": [
+        [
+          "Situs resmi anime",
+          "https://fujimototatsuki17-26.com/story/sasaki/"
+        ],
+        [
+          "Wikipedia",
+          "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"
+        ]
+      ],
+      "tags": [
+        "pemeran",
+        "cast",
+        "seiyuu",
+        "dub"
+      ]
     },
     {
-      "id": "antologi", "cat": "prod", "sp": 0,
+      "id": "antologi",
+      "cat": "prod",
+      "sp": 0,
       "title": "Satu episode dari delapan",
       "body": "<p><span lang=\"ja\">藤本タツキ 17-26</span> mengadaptasi delapan one-shot dari dua jilid, satu cerita per episode, oleh beberapa studio dan sutradara berbeda. Sasaki adalah episode 2. Anime ini tayang terbatas di bioskop Jepang mulai 17 Oktober 2025, lalu tayang global di Prime Video.</p>",
-      "src": [["Wikipedia", "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"]],
-      "tags": ["17-26", "antologi", "prime video"]
+      "src": [
+        [
+          "Wikipedia",
+          "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_17-26"
+        ]
+      ],
+      "tags": [
+        "17-26",
+        "antologi",
+        "prime video"
+      ]
     }
   ],
   "a11y": {
